@@ -15,10 +15,12 @@ aside {
     width: 150px;
     background-color: #333;
     color: #fff;
+    -webkit-transition: left 0.1s ease-in-out;
     transition: left 0.1s ease-in-out;
 }
 main {
     position: absolute;
     left: 0;
+    -webkit-transition: left 0.1s ease-in-out;
     transition: left 0.1s ease-in-out;
 }
