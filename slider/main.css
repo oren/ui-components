@@ -15,8 +15,8 @@ aside {
     width: 150px;
     background-color: #333;
     color: #fff;
-    -webkit-transition: left 0.1s ease-in-out;
-    transition: left 0.1s ease-in-out;
+    -webkit-transition: left 0.1s ease-in-out; /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: left 0.1s ease-in-out;         /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 main {
     position: absolute;
