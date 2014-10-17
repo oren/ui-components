@@ -1,0 +1,24 @@
+#sidebar_action {
+    display: none;
+}
+#sidebar_action:checked + aside {
+    left: 0;
+}
+#sidebar_action:checked + aside + main {
+    left: 150px;
+}
+aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -150px;
+    width: 150px;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.1s ease-in-out;
+}
+main {
+    position: absolute;
+    left: 0;
+    transition: left 0.1s ease-in-out;
+}
